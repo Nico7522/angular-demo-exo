@@ -3,3 +3,8 @@
 <p>UpperCase: {{ message | uppercase }}</p>
 <p>LowerCase: {{ message | lowercase }}</p>
 <p>TitleCase: {{ message | titlecase }}</p>
+
+<p>{{ birthdate }}</p>
+<p>Birth date {{ birthdate | date: 'dd-MM-yyyy'}}</p>
+
+<p>Price : {{ price | currency: 'EUR'}}</p>
