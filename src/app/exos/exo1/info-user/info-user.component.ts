@@ -17,6 +17,6 @@ export class InfoUserComponent {
   }
 
   public getInfos(){
-    return `Mon peuso est ${this._pseudo}, j'ai ${this._age} et j'aime la ${this._hobby}`
+    return `Mon pseudo est ${this._pseudo}, j'ai ${this._age} ans et j'aime la ${this._hobby}`
   }
 }
