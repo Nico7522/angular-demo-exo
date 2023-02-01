@@ -1,0 +1,6 @@
+<h2>Chrono</h2>
+
+<h3>{{ heures | timerpipe }} : {{ minutes | timerpipe }} : {{ secondes| timerpipe }}</h3>
+<button type="button" (click)="addTime()">Start</button>
+<button type="button" (click)="isDisable = true" [disabled]="btnDisable">Stop</button>
+<button type="button" (click)="removeTimer()" [disabled]="btnDisable" >Reset</button>

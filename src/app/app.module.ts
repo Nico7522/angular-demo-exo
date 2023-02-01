@@ -11,6 +11,10 @@ import { Exo1Component } from './exos/exo1/exo1.component';
 import { Demo2Component } from './demos/demo2/demo2.component';
 import { Demo3Component } from './demos/demo3/demo3.component';
 import { ToTemperaturePipe } from './demos/pipes/to-temperature';
+import { Exo2Component } from './exos/exo2/exo2.component';
+import { TimerComponent } from './exos/exo2/timer/timer.component';
+import { TimerpipePipe } from './exos/exo2/pipetimer/timerpipe.pipe';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { ToTemperaturePipe } from './demos/pipes/to-temperature';
     Exo1Component,
     Demo2Component,
     Demo3Component,
-    ToTemperaturePipe
+    ToTemperaturePipe,
+    Exo2Component,
+    TimerComponent,
+    TimerpipePipe,
+    
     // Demo1Component,
     
   ],
