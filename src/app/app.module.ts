@@ -17,6 +17,7 @@ import { TimerpipePipe } from './exos/exo2/pipetimer/timerpipe.pipe';
 import { Demo4Component } from './demos/demo4/demo4.component';
 import { Demo5Component } from './demos/demo5/demo5.component';
 import { FormsModule } from '@angular/forms';
+import { SpoilbambiComponent } from './exos/exo3/spoilbambi/spoilbambi.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { FormsModule } from '@angular/forms';
     TimerpipePipe,
     Demo4Component,
     Demo5Component,
+    SpoilbambiComponent,
     
     // Demo1Component,
     
