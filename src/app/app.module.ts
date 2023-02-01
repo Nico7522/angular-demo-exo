@@ -14,6 +14,9 @@ import { ToTemperaturePipe } from './demos/pipes/to-temperature';
 import { Exo2Component } from './exos/exo2/exo2.component';
 import { TimerComponent } from './exos/exo2/timer/timer.component';
 import { TimerpipePipe } from './exos/exo2/pipetimer/timerpipe.pipe';
+import { Demo4Component } from './demos/demo4/demo4.component';
+import { Demo5Component } from './demos/demo5/demo5.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -28,13 +31,16 @@ import { TimerpipePipe } from './exos/exo2/pipetimer/timerpipe.pipe';
     Exo2Component,
     TimerComponent,
     TimerpipePipe,
+    Demo4Component,
+    Demo5Component,
     
     // Demo1Component,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
