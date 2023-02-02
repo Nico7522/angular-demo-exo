@@ -13,5 +13,5 @@
 
 <div class="menu" *ngFor="for let course of cours">
     <h3 (click)="showDesc(course.id)">{{ course.name }}</h3>
-    <p *ngIf="course.isActive === true" > {{ course. description }}</p>
+    <p *ngIf="course.isActive === true" > {{ course.description }}</p>
 </div>

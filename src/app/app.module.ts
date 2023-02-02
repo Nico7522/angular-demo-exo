@@ -20,6 +20,7 @@ import { FormsModule } from '@angular/forms';
 import { SpoilbambiComponent } from './exos/exo3/spoilbambi/spoilbambi.component';
 import { MenubarreComponent } from './exos/exo4/menubarre/menubarre.component';
 import { CourspreferesComponent } from './exos/exo5/courspreferes/courspreferes.component';
+import { BlooklistComponent } from './exos/exo6/blooklist/blooklist.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { CourspreferesComponent } from './exos/exo5/courspreferes/courspreferes.
     SpoilbambiComponent,
     MenubarreComponent,
     CourspreferesComponent,
+    BlooklistComponent,
     
     // Demo1Component,
     
