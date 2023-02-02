@@ -1,0 +1,31 @@
+#imgbarre {
+    height: 25px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.croix {
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+    width: 150px;
+    box-shadow: 5px 5px 5px;
+}
+
+li {
+    padding: 10px;
+    background-color: rgb(220, 226, 224);
+    border: black 1px solid;
+    cursor: pointer;
+}
+
+div {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}

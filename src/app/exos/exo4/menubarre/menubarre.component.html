@@ -1,0 +1,27 @@
+<h2>Menu Barre</h2>
+<img src="../../../../assets/barre.png" id="imgbarre" *ngIf="!showMenu" (click)="showMenu = true"/>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke-width="1.5"
+  stroke="currentColor"
+  class="croix"
+>
+  <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M6 18L18 6M6 6l12 12"
+    *ngIf="showMenu"
+    (click)="showMenu = false;"/>
+</svg>
+
+
+<div *ngIf="showMenu">
+    <ul>
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+    </ul>
+</div>

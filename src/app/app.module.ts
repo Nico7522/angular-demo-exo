@@ -18,6 +18,8 @@ import { Demo4Component } from './demos/demo4/demo4.component';
 import { Demo5Component } from './demos/demo5/demo5.component';
 import { FormsModule } from '@angular/forms';
 import { SpoilbambiComponent } from './exos/exo3/spoilbambi/spoilbambi.component';
+import { MenubarreComponent } from './exos/exo4/menubarre/menubarre.component';
+import { CourspreferesComponent } from './exos/exo5/courspreferes/courspreferes.component';
 
 
 @NgModule({
@@ -35,6 +37,8 @@ import { SpoilbambiComponent } from './exos/exo3/spoilbambi/spoilbambi.component
     Demo4Component,
     Demo5Component,
     SpoilbambiComponent,
+    MenubarreComponent,
+    CourspreferesComponent,
     
     // Demo1Component,
     

@@ -1,5 +1,6 @@
 <h3>Spoiler Alerte</h3>
 
 <button type="button" (click)="spoil()">{{ isOnSpoiler ? 'Spoil' : 'cacher' }}</button>
-<p *ngIf="isOnSpoiler; else elseBlock ">Rien à voir</p>
-<ng-template #elseBlock>Bambi est pas mort à la fin</ng-template>
+<p *ngIf="isOnSpoiler">Rien à voir</p>
+<p *ngIf="!isOnSpoiler" id="show">Bambi est pas mort à la fin</p>
+
