@@ -11,8 +11,11 @@ import { TimerComponent } from './exo2/timer/timer.component';
 import { MenubarreComponent } from './exo4/menubarre/menubarre.component';
 import { CourspreferesComponent } from './exo5/courspreferes/courspreferes.component';
 import { BlooklistComponent } from './exo6/blooklist/blooklist.component';
-import { TimerpipePipe } from './exo2/pipetimer/timerpipe.pipe';
+import { TimerpipePipe } from '../shared/pipetimer/timerpipe.pipe';
 import { FormsModule } from '@angular/forms';
+import { SharedModule } from '../shared/shared.module';
+import { Exo7Component } from './exo7/exo7.component';
+import { BookComponent } from './exo7/book/book.component';
 
 
 
@@ -24,16 +27,18 @@ import { FormsModule } from '@angular/forms';
     InputComponent,
     Exo2Component,
     TimerComponent,
-    TimerpipePipe,
     SpoilbambiComponent,
     MenubarreComponent,
     CourspreferesComponent,
-    BlooklistComponent
+    BlooklistComponent,
+    Exo7Component,
+    BookComponent
   ],
   imports: [
     CommonModule,
     ExosRoutingModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ]
 })
 export class ExosModule { }

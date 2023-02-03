@@ -11,21 +11,26 @@ import { Exo1Component } from './exos/exo1/exo1.component';
 
 import { Exo2Component } from './exos/exo2/exo2.component';
 import { TimerComponent } from './exos/exo2/timer/timer.component';
-import { TimerpipePipe } from './exos/exo2/pipetimer/timerpipe.pipe';
+import { TimerpipePipe } from './shared/pipetimer/timerpipe.pipe';
 
 import { DemosModule } from './demos/demos.module';
 import { ExosModule } from './exos/exos.module';
+import { NavbarreComponent } from './navbarre/navbarre.component';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarreComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     DemosModule,
-    ExosModule
+    ExosModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,6 @@
+<h2 (click)="showExos = !showExos" >Exos</h2>  
+<h2 (click)="showDemos = !showDemos" >Démos</h2>
+<nav *ngFor="let link of tabLinksExos" > 
+    <a  *ngIf="(showExos === true && link.type === 'exo') || (showDemos === true && link.type === 'demo') " routerLink="{{ link.link }}">{{ link.name }}</a>
+    <!-- <a  *ngIf="showDemos === true && link.type === 'demo'" routerLink="{{ link.link }}"> {{ link.name }}</a> -->
+</nav>

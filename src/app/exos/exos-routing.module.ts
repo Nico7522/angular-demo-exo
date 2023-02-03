@@ -9,6 +9,8 @@ import { SpoilbambiComponent } from './exo3/spoilbambi/spoilbambi.component';
 import { MenubarreComponent } from './exo4/menubarre/menubarre.component';
 import { CourspreferesComponent } from './exo5/courspreferes/courspreferes.component';
 import { BlooklistComponent } from './exo6/blooklist/blooklist.component';
+import { BookComponent } from './exo7/book/book.component';
+import { Exo7Component } from './exo7/exo7.component';
 
 const routes: Routes = [
   { path: 'exo1', component: Exo1Component },
@@ -19,7 +21,9 @@ const routes: Routes = [
   { path: 'spoilbambi', component: SpoilbambiComponent },
   { path: 'menubarre', component: MenubarreComponent },
   { path: 'courspreferes', component: CourspreferesComponent },
-  { path: 'blooklist', component: BlooklistComponent}
+  { path: 'blooklist', component: BlooklistComponent},
+  { path: 'exo7', component: Exo7Component },
+  { path: 'book', component: BookComponent }
 
   
 ];
