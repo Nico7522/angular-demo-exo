@@ -1,5 +1,5 @@
-
-
-<div>
-  <p>{{ idB }} || {{ nameB }}</p>
-</div>
+<input type="text" [(ngModel)]="valueInput" />
+<button type="button" (click)="addBooks(valueInput)">Add book</button>
+<ul>
+  <li *ngFor="let book of Books">{{ book.id }} || {{ book.name }} <button type="button" (click)="deleteBooksEnfant(book.id)">X</button></li>
+</ul>

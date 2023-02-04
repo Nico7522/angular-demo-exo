@@ -1,4 +1,3 @@
 <h2>Books List</h2>
-<input type="text" [(ngModel)]="book"/>
-<button type="button" (click)="ajouterBooks(book)">Add book</button>
-<app-book *ngFor="let book of Books" [idB]="book.id" [nameB]="book.name" [nameAdd]="book" [Books]="Books" (addbooks)="ajouterBooks($event)">
+
+<app-book [Books]="Books"(addbooks)="ajouterBooks($event)" (deletebooks)="deleteBookParent($event)">

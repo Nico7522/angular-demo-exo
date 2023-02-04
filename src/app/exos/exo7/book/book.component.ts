@@ -6,14 +6,19 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./book.component.scss'],
 })
 export class BookComponent {
-  @Input() idB!: number;
-  @Input() nameB!: string;
-  @Input() nameAdd!: string;
-  @Input() Books!: [];
+
+  @Input() Books!: any[];
+ 
+  valueInput: string = '';
   @Output() addbooks: EventEmitter<string> = new EventEmitter<string>();
-  addBooks(nameAdd: string) {
-    // Message envoyer au composant parent
-    this.addbooks.emit(nameAdd);
+  addBooks(valueInput: string) {
+    this.addbooks.emit(valueInput);
+  }
+
+  @Output() deletebooks: EventEmitter<number> = new EventEmitter<number>();
+  
+  deleteBooksEnfant(id: number){
+    this.deletebooks.emit(id);
   }
 
 }

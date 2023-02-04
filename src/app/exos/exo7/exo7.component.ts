@@ -6,7 +6,7 @@ import { Component, Input, Output } from '@angular/core';
   styleUrls: ['./exo7.component.scss'],
 })
 export class Exo7Component {
-  book: string = '';
+  id: number = 3;
   Books: any = [
     {
       id: 1,
@@ -21,11 +21,19 @@ export class Exo7Component {
       name: 'One Puch Man Vol 1',
     },
   ];
+  incrementId(id: number) {
+    return (this.id += 1);
+  }
 
   ajouterBooks(event: string) {
     this.Books.push({
-      id: this.Books.length + 1,
+      id: this.incrementId(this.id),
       name: event,
+    });
+  }
+  deleteBookParent(id: number) {
+    this.Books = this.Books.filter((b: { id: number }) => {
+      return b.id != id;
     });
   }
 }
