@@ -21,6 +21,7 @@ export class BarremenuComponent {
       { title: 'Demo 4', url: 'demo4'},
       { title: 'Demo 5', url: 'demo5'},
       { title: 'Demo 6', url: 'demo6'},
+      { title: 'Demo 7', url: 'demo7'},
     ]},
     { title: 'Exos', children: [
       { title: 'UserInfos/Input', url: 'exo1'},
@@ -35,6 +36,7 @@ export class BarremenuComponent {
       { title: 'Books List', url: 'blooklist'},
       { title: 'Books List 2', url: 'exo7'},
       { title: 'Books List 2', url: 'book'},
+      { title: 'Books List Service', url: 'exo8'},
     ]}
 
     

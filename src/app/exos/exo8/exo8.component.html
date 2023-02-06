@@ -1,0 +1,9 @@
+<h2>Book List</h2>
+
+<input type="text" [(ngModel)]="book">
+<button type="button" (click)="insertBook()">Add Book</button>
+
+<ul>
+    <li *ngFor="let b of tabBook">{{ b.id }} || {{ b.name }} <button type="button" (click)="deleteBook(b.id)">X</button></li>
+    <p *ngIf="tabBook.length === 0">PLUS DE LIVRES</p>
+</ul>

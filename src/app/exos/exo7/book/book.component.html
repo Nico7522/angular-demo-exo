@@ -2,4 +2,5 @@
 <button type="button" (click)="addBooks(valueInput)">Add book</button>
 <ul>
   <li *ngFor="let book of Books">{{ book.id }} || {{ book.name }} <button type="button" (click)="deleteBooksEnfant(book.id)">X</button></li>
+  <p *ngIf="Books.length === 0">Add books to your list</p>
 </ul>

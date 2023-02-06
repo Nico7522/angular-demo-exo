@@ -5,7 +5,9 @@ import { Component, Input, Output } from '@angular/core';
   templateUrl: './exo7.component.html',
   styleUrls: ['./exo7.component.scss'],
 })
+
 export class Exo7Component {
+ 
   id: number = 3;
   Books: any = [
     {
@@ -30,6 +32,8 @@ export class Exo7Component {
       id: this.incrementId(this.id),
       name: event,
     });
+    
+    
   }
   deleteBookParent(id: number) {
     this.Books = this.Books.filter((b: { id: number }) => {

@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
 import { Exo7Component } from './exo7/exo7.component';
 import { BookComponent } from './exo7/book/book.component';
+import { Exo8Component } from './exo8/exo8.component';
 
 
 
@@ -32,7 +33,8 @@ import { BookComponent } from './exo7/book/book.component';
     CourspreferesComponent,
     BlooklistComponent,
     Exo7Component,
-    BookComponent
+    BookComponent,
+    Exo8Component
   ],
   imports: [
     CommonModule,
