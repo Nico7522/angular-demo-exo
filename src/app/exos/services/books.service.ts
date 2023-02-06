@@ -4,7 +4,20 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class BooksService {
-  listBook: any = [];
+  listBook = [
+    {
+      id: 1,
+      name: 'One Piece Vol 101',
+    },
+    {
+      id: 2,
+      name: 'Chainsaw Man Vol 1',
+    },
+    {
+      id: 3,
+      name: 'One Puch Man Vol 26',
+    },
+  ];
   id: number = 3;
 
   constructor() {}

@@ -12,6 +12,7 @@ import { BlooklistComponent } from './exo6/blooklist/blooklist.component';
 import { BookComponent } from './exo7/book/book.component';
 import { Exo7Component } from './exo7/exo7.component';
 import { Exo8Component } from './exo8/exo8.component';
+import { Exo9Component } from './exo9/exo9.component';
 
 const routes: Routes = [
   { path: 'exo1', component: Exo1Component },
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'blooklist', component: BlooklistComponent},
   { path: 'exo7', component: Exo7Component },
   { path: 'book', component: BookComponent },
-  { path: 'exo8', component: Exo8Component }
+  { path: 'exo8', component: Exo8Component },
+  { path: 'exo9', component: Exo9Component },
 
   
 ];

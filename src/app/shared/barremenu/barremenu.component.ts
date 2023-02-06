@@ -37,6 +37,7 @@ export class BarremenuComponent {
       { title: 'Books List 2', url: 'exo7'},
       { title: 'Books List 2', url: 'book'},
       { title: 'Books List Service', url: 'exo8'},
+      { title: 'Shoping List', url: 'exo9'},
     ]}
 
     

@@ -17,6 +17,7 @@ import { SharedModule } from '../shared/shared.module';
 import { Exo7Component } from './exo7/exo7.component';
 import { BookComponent } from './exo7/book/book.component';
 import { Exo8Component } from './exo8/exo8.component';
+import { Exo9Component } from './exo9/exo9.component';
 
 
 
@@ -34,7 +35,8 @@ import { Exo8Component } from './exo8/exo8.component';
     BlooklistComponent,
     Exo7Component,
     BookComponent,
-    Exo8Component
+    Exo8Component,
+    Exo9Component
   ],
   imports: [
     CommonModule,
