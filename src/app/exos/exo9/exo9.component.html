@@ -4,10 +4,14 @@
   <input type="text" [(ngModel)]="nameObjet" />
   <input type="text" [(ngModel)]="priceObjet"/>
   <button (click)="add()">Add</button>
+  <label for="promo" >Promo</label>
+  <input type="checkbox" name="promo" id="promo" [(ngModel)]="isPromo">
 </div>
 
 <ul>
   <li *ngFor="let art of shop">{{ art.name }} -- {{ art.price }} 
+    <button>+</button>
+    <button>-</button>
     <button (click)="delete(art.id)">Remove</button>
   </li>
 </ul>

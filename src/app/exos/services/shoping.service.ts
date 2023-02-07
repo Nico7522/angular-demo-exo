@@ -18,7 +18,10 @@ export class ShopingService  {
       return art.id != id;
     })
   }
-
+  updateQuantity(id: number){
+    console.log();
+    
+  }
 
 
   constructor() { }

@@ -7,11 +7,12 @@ import { Demo3Component } from './demo3/demo3.component';
 import { Demo4Component } from './demo4/demo4.component';
 import { Demo5Component } from './demo5/demo5.component';
 // import { ToTemperaturePipe } from '../shared/pipes/to-temperature';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
 import { Demo6Component } from './demo6/demo6.component';
 import { EnfantComponent } from './demo6/enfant/enfant.component';
 import { Demo7Component } from './demo7/demo7.component';
+import { Demo8Component } from './demo8/demo8.component';
 
 
 
@@ -25,11 +26,13 @@ import { Demo7Component } from './demo7/demo7.component';
     Demo6Component,
     EnfantComponent,
     Demo7Component,
+    Demo8Component,
   ],
   imports: [
     CommonModule,
     DemosRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     SharedModule
   ]
 })

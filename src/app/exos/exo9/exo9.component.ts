@@ -13,6 +13,9 @@ export class Exo9Component implements OnInit {
 
   nameObjet: string = '';
   priceObjet: number = 0;
+  isPromo!: boolean;
+
+  moins: string = '';
 
   ngOnInit() {
     this.shop = this._Shoplist.shopList;
@@ -23,7 +26,7 @@ export class Exo9Component implements OnInit {
     this.shop = this._Shoplist.shopList;
   }
 
-  delete(id: number){
+  delete(id: number) {
     this._Shoplist.deleteArticle(id);
     this.shop = this._Shoplist.shopList;
   }
